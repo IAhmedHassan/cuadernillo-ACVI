@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 2rem;
+  background-color: var(--m-fondo);
+  color: var(--m-texto);
+}
+
+:root {
+  --m-fondo: var(--azul-100);
+  --m-negro: #080808;
+  --m-texto: var(--azul-500);
+  --m-azul-claro: #C7EDE4;
+  --m-azul-oscuro: #091540;
+
+  /* paleta */
+  --azul-100: #F2F2FF;
+  --azul-200: #BCC1FD;
+  --azul-300: #808FEF;
+  --azul-400: #425BC8;
+  --azul-500: #0F2A7D;
+  --azul-600: #052367;
+  --azul-700: #011F52;
+  --azul-800: #001A3C;
+  --azul-900: #001226;
+  ;
+}
+
+.wrapper-content {
+  justify-items: center;
+}
+
+
+    /* Primary: Catalina Blue */
+
+
