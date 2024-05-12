@@ -18,13 +18,13 @@ const { pageTitle } = Astro.props;
 		<title>ACVI.</title>
 	</head>
 	<body>
-        
-            <Encabezado />
-            <main>
-                <slot></slot>
-            </main>
-            <Pie /> 
-        
+    <div class="wrapper">    
+			<Encabezado />
+			<main>
+					<slot></slot>
+			</main>
+			<Pie /> 
+		</div>
 	</body>
 </html>
 
