@@ -107,6 +107,17 @@ ul {
   margin-bottom: 0.5em;
 }
 
+.strong {
+  list-style: none;
+}
+
+li.strong:before {
+  content: "*";
+  position: relative;
+  left: -15px;
+  bottom: -3px;
+}
+
 footer {
   text-align: center;
   margin-top: auto;
