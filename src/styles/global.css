@@ -6,6 +6,7 @@
   line-height: 2rem;
   background-color: var(--m-fondo);
   color: var(--m-texto);
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -38,7 +39,6 @@
   src: url(/fonts/ClashDisplay-Bold.ttf);
   font-weight: bold;
 }
-
 
 
 body {
