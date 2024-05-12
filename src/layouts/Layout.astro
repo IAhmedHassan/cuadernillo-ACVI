@@ -2,7 +2,7 @@
 import "../styles/global.css"
 import Encabezado from "../components/Encabezado.astro";
 import Pie from '../components/Pie.astro'
-const { pageTitle } = Astro.props;
+import Top from "../components/Top.astro";
 ---
 
 <html lang="es-AR">
@@ -23,6 +23,7 @@ const { pageTitle } = Astro.props;
 			<main>
 					<slot></slot>
 			</main>
+			<Top />
 			<Pie /> 
 		</div>
 	</body>
