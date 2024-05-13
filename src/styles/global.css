@@ -58,8 +58,8 @@ body {
 
 nav {
   text-align: left;
-  margin: 50px;
- }
+  margin: 3rem;
+}
 
 h3 {
   font-size: 1.2em;
@@ -75,7 +75,7 @@ main {
 }
 
 & section {
-  padding: 15px;
+  padding: 1.7rem;
 }
 
 & h2 {
@@ -101,7 +101,8 @@ main {
 
 strong {
   font-weight: bold;
-  line-height: 1.5rem;
+  line-height: 1em;
+  text-align: left;
 }
 
 ul {
@@ -131,18 +132,3 @@ footer {
   text-align: center;
   margin-top: auto;
 } 
-/* body {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
- .wrapper-content {
-  flex-direction: column;
-  justify-items: center;
-  scroll-snap-type: mandatory;
-  height: 100vh;
-  flex: 1;
-}
-
-*/
